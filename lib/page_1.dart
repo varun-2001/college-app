@@ -5,8 +5,10 @@ class Name extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Text(
-        'Varun'
-            'Hello'
+        'Varun',
+        style: TextStyle(
+          color: Colors.red
+        ),
       ),
     );
   }
